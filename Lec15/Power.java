@@ -1,0 +1,22 @@
+package Lec15;
+
+public class Power {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a = 5;
+		int n = 3;
+		System.out.println(pow(a, n));
+
+	}
+
+	public static int pow(int a, int n) {
+		if (n == 0) {
+			return 1;
+		}
+		int ans = pow(a, n - 1);
+		return ans * a;
+
+	}
+
+}
