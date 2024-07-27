@@ -22,7 +22,7 @@ public class Flatten_Binary_Tree_to_Linked_List {
 
 	class Solution {
 		public void flatten(TreeNode root) {
-
+			MakeLL(root);
 		}
 
 		public TreeNode MakeLL(TreeNode root) {
