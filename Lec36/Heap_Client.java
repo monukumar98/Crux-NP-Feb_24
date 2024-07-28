@@ -7,7 +7,7 @@ import java.util.PriorityQueue;
 public class Heap_Client {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 //		Heap hp = new Heap();
 		PriorityQueue<Integer> hp = new  PriorityQueue<>(Collections.reverseOrder());
 		hp.add(10);
